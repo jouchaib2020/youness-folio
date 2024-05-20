@@ -4,21 +4,21 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Rohan Kokkula | Portfolio",
+  title: "Younes Oumhammed | Portfolio",
   description:
-    "A Data Science practitioner who thrives to leverage startups with AI based solutions with a blend of UI/UX",
+    "MSc. Machine Learning at KTH | MEng Computer Science at Centrale Nantes",
   og: {
-    title: "Rohan Portfolio",
+    title: "Younes Oumhamed",
     type: "website",
-    url: "http://rohankokkula.ml/",
+    url: "localhost:8080",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Namaste!",
-  sub: "Rohan Kokkula",
-  logo_name: "Rohan Kokkula",
+  title: "Azoul!",
+  sub: "Younes Omhamed",
+  logo_name: "Younes Oumhamed",
   resumeLink: "",
 };
 
@@ -31,15 +31,7 @@ const competitiveSites = {
       style: {
         color: "white",
       },
-      profileLink: "https://github.com/rohankokkula",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/rohankokkula01",
+      profileLink: "https://github.com/younes-folio",
     },
     {
       siteName: "Kaggle",
@@ -50,14 +42,6 @@ const competitiveSites = {
       profileLink: "https://www.kaggle.com/rohan0301",
     },
     {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@rohankokkula",
-    },
-    {
       siteName: "LinkedIn",
       iconifyClassname: "simple-icons:linkedin",
       style: {
@@ -66,7 +50,7 @@ const competitiveSites = {
       profileLink: "https://www.linkedin.com/in/rohankokkula/",
     },
     {
-      siteName: "HashNode",
+      siteName: "Twitter",
       iconifyClassname: "simple-icons:hashnode",
       style: {
         color: "#2962ff",
@@ -199,46 +183,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:npm",
           style: {
             color: "#CB3837",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interfaces for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-        "⚡ Applying latest Design principles and experienced in product wireframing",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Adobe Photoshop",
-          fontAwesomeClassname: "simple-icons:adobephotoshop",
-          style: {
-            color: "#2fa3f7",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
           },
         },
       ],
